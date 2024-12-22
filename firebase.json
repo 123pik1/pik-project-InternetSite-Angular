@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "pik123",
+    "public": "dist/pik-project",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
