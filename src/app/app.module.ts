@@ -54,19 +54,7 @@ import { OccisorComponent } from './main/body/opowiadania/homeopowiadania/fantas
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HeaderComponent,
-    BodyComponent,
-    HomeComponent,
-    MainComponent,
-    AppComponent,
-    OpowiadaniaComponent,
-    FalangitaComponent,
-    LegionistaComponent,
-    HusarzComponent,
-    CarrowComponent,
-    HumanityComponent,
-    ChessclubComponent,
+    AppRoutingModule
     
   ],
   providers: [],
