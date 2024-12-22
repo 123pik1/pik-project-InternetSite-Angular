@@ -1,0 +1,36 @@
+<div class="row m-1">
+    <div class="col-2 p-1">
+
+        <div class="dropdown dropright">
+            <button class="btn  dropdown-toggle" type="button" id="germans" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Germanica
+            </button>
+            <div class="dropdown-menu" aria-labelledby="germans">
+                
+                <a class="dropdown-item" routerLink="rozdzial1-wit">Rozdział 1</a>
+                <a class="dropdown-item" routerLink="rozdzial2-wit">Rozdział 2</a>
+                <a class="dropdown-item" routerLink="rozdzial3-wit">Rozdział 3</a>
+                <a class="dropdown-item" routerLink="rozdzial4-wit">Rozdział 4</a>
+            </div>
+        </div>
+
+        <div class="dropdown dropright">
+            <button class="btn  dropdown-toggle" type="button" id="pam" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Pamiętnik
+            </button>
+            <div class="dropdown-menu" aria-labelledby="pam">
+                
+                <a class="dropdown-item" routerLink="rozdzial1-pamietnik">Rozdział 1</a>
+                <a class="dropdown-item" routerLink="rozdzial2-pamietnik">Rozdział 2</a>
+                <a class="dropdown-item" routerLink="rozdzial3-pamietnik">Rozdział 3</a>
+                <a class="dropdown-item" routerLink="rozdzial4-pamietnik">Rozdział 4</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col">
+        <router-outlet></router-outlet>
+    </div>
+</div>

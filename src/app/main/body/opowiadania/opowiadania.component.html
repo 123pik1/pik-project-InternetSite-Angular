@@ -1,0 +1,59 @@
+<div class="row m-1">
+    <div class="col-2 p-1 ">
+        <div class="dropdown dropright">
+            <button class="btn  dropdown-toggle" type="button" id="soldier" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Żołnierz POV
+            </button>
+            <div class="dropdown-menu" aria-labelledby="soldier">
+                <h6 class="dropdown-header">Starożytność</h6>
+                <a class="dropdown-item" routerLink="falangita">Falangita</a>
+                <a class="dropdown-item" routerLink="legionista">Legionista</a>
+                <a class="dropdown-item" routerLink="persjaslon">Słoń</a>
+                <h6 class="dropdown-header">Nowożytność</h6>
+                <a class="dropdown-item" routerLink="husarz">Husarz</a>
+                <h6 class="dropdown-header">I Wojna Światowa</h6>
+                <a class="dropdown-item" routerLink="osowiec">Osowiec</a>
+                <h6 class="dropdown-header">II Wojna Światowa</h6>
+                <a class="dropdown-item" routerLink="psy">Wykorzystanie psów</a>
+                <a class="dropdown-item" routerLink="fin">Simo</a>
+
+            </div>
+        </div>
+
+        <div class="dropdown dropright">
+            <button class="btn  dropdown-toggle" type="button" id="Fantasy" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Fantasy
+            </button>
+            <div class="dropdown-menu" aria-labelledby="Fantasy">
+                <h6 class="dropdown-header">Occisor</h6>
+                <a class="dropdown-item" routerLink="carrow">Occisor Carrow</a>
+
+            </div>
+        </div>
+        <div class="dropdown dropright">
+            <button class="btn  dropdown-toggle" type="button" id="english" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Po angielsku
+            </button>
+            <div class="dropdown-menu" aria-labelledby="english">
+                <h6 class="dropdown-header">Sci-Fi</h6>
+                <a class="dropdown-item" routerLink="affection">Affection</a>
+                <a class="dropdown-item" routerLink="affection2">Affection part 2</a>
+                <h6 class="dropdown-header">Other</h6>
+                <a class="dropdown-item" routerLink="humanity">Story about nobody</a>
+                <a class="dropdown-item" routerLink="chessclub">Chessclub</a>
+                <a class="dropdown-item" routerLink="chessclub2">Chessclub part 2</a>
+                <a class="dropdown-item" routerLink="doctor">Visit at doctor's surgery</a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col">
+        <router-outlet></router-outlet>
+    </div>
+</div>
